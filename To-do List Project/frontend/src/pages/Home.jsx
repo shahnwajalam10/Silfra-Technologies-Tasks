@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <div className="todo-container">
-      <h2>To-do List</h2>
+      <h2>📝To-do List</h2>
       <TodoForm onAdd={addTodo} />
       {todos.map((todo) => (
         <TodoItem
